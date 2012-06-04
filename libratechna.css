@@ -1,0 +1,321 @@
+body {
+	background: url(images/body.jpg);
+	background-repeat: repeat;
+        margin: 0px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#topbar {
+	height: 68px;
+	border-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+
+}
+
+#topbar img.logo {
+	float: left;
+	margin-left: 20px;
+	margin-top: 19px;
+}
+
+#topbar-block {
+	float: right;
+	height: 43px;
+	width: 886px;
+	margin-top: 15px;
+	background: #FFFFFF;
+	border: 1px solid gray;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+form.search-box {
+	float: left;
+	border: 1px solid #333333;
+	width: 328px;
+	height: 25px;
+	margin-top: 8px;
+	margin-left: 7px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+input.search-field {
+	float: left;
+	width: 304px;
+	height: 26px;
+	border-right: 1px solid #333333;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+
+img.search-icon {
+	margin-left: 5px;
+	margin-top: 4px;
+}
+
+.topbar-options {
+	float: right;
+	display: block;
+	margin-top: 13px;
+	margin-right: 17px;
+	font-size: 0.82em;
+	color: #888888;
+}
+
+a.topbar-link {
+	color: #000099;
+}
+
+a.topbar-link:hover {
+	text-decoration: none;
+}
+
+
+.columns {
+	height: 100%;
+}
+
+.col1 {
+	float: left;
+	width: 252px;
+	height: 100%;
+	border: 1px solid black;
+	border-left-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	background: url(images/athens_image.png);
+	background-repeat: no-repeat;
+	background-position: 55% 84%;
+}
+
+.libratechna-info {
+	height: 28px;
+	margin-top: 718px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-top: none;	
+	border-bottom: 1px solid #CFCFCF;	
+}
+
+.libratechna-info ul {
+	float: left;
+	margin-top: 3px;
+	margin-left: -44px;
+}
+
+.libratechna-info ul li {
+	display: inline;
+	font-size: 0.8em;
+	margin-left: 9px;
+	color: #666666;
+}
+
+.libratechna-info a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.libratechna-info a:hover {
+	text-decoration: underline;
+}
+
+.col2 {
+	float: left;
+	width: 770px;
+	height: 222%;
+	background: #FFFFFF;
+	border: 1px solid gray;
+	border-top-right-radius: 5px;
+}
+
+.tab-background {
+	background: #FCFEF3;
+	height: 42px;
+	border-top-right-radius: 5px;
+	border-bottom-style: none;
+
+}
+
+.research-item-1 {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #E3E3E3;
+	padding-bottom: 12px;
+}
+
+.research-item-2 {
+	background: #FCFEF3; 
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #E3E3E3;
+	padding-bottom: 12px;
+}
+
+.vote-wrapper {
+	float: left;
+	width: 60px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: -2px;
+	padding-top: 21px;
+	text-align: center;
+}
+
+img.up-arrow {
+	margin-bottom: 7px;
+}
+
+.score {
+	font-size: 0.96em;
+	color: #111111;
+}
+
+img.down-arrow {
+	margin-top: 7px;
+}
+
+.research-info {
+	padding-top: 20px;
+	width: 640px;
+}
+
+a.research-title {
+	display: block;
+	margin-top: 1px;
+	color: #000099;
+	font-size: 0.96em;
+	text-decoration: none;
+}
+
+a.research-title:hover {
+	text-decoration: underline;
+}
+
+.research-details {
+	display: block;
+	margin-top: -6px;
+	margin-bottom: 11px;
+	margin-left: 64px;
+	font-size: 0.8em;
+}
+
+.research-details a {
+	text-decoration: none;
+	color: #000099;
+}
+
+.research-details a:hover {
+	text-decoration: underline;
+}
+
+a.number-comments {
+	color: #888888;
+}
+
+.time-box {
+	float: right;
+	margin-right: 11px;
+	margin-top: 0px;
+}
+
+.gray-highlight {
+	height: 6px;
+	background: #E3E3E3;
+}
+
+.submission-time {
+	margin-top: 4px;
+	color: #888888;
+	font-size: 0.82em;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+img.paper-body {
+	margin-left: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #E3E3E3;
+}
+	
+a.submit-research {
+	background: #FCF9E4;
+	margin-top: 8px;
+	margin-right: 6px;
+	display: block;
+	float: right;
+	width: 112px;
+	height: 19px;
+	border: 1px solid #444444;
+	border-radius: 6px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #000099;
+}
+
+a.submit-research:hover {
+	background: #F2EFDB;
+	border-color: #222222;
+}
+
+
+.col3 {
+	float: right;
+	width: 110px;
+	height: 100%;
+	border: 1px solid black;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+}
+
+img.roman-column {
+	margin-top: -1px;
+}
+
+ul.left-list {
+	float: left;
+	list-style-type: none;
+	margin-top: 4px;
+	margin-left: -24px;
+	color: #000099;
+	font-size: 0.62em;
+}
+
+ul.left-list li {
+	margin-top: 0px;
+}
+
+ul.left-list a {
+	color: #000099;
+	text-decoration: none;	
+}
+
+ul.left-list a:hover {
+	text-decoration: underline;	
+}
+
+img.subscriptions-arrow {
+	float: left;
+	display: block;
+	height: 5px;
+	width: 5px;
+	margin-top: -9px;
+	margin-left: 70px;
+	padding: 2px;
+}
+
+
+

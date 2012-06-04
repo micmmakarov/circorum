@@ -1,0 +1,16 @@
+<!--		'id',
+		'title',
+		'user_id',
+		'link',
+		'authors',
+		'submission_date',
+		'publication_date',
+		'abstract',
+		'body',
+		'document',
+		'doi',
+		'journal',
+		'issue_number',
+		'pages',
+-->
+

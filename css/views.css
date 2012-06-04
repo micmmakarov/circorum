@@ -1,0 +1,119 @@
+@CHARSET "ISO-8859-1";
+
+
+/* list.php css --------------------------------------- */
+
+.s-feed {
+	background:white;
+	width:605px;
+	padding-top: 5px;
+	border: 1px solid lightgray;
+}
+
+.s-feed .bar {
+	display:block;
+	border-radius: 10px;
+	border: 1px solid lightgray;
+	color:#333333;
+	margin-left:5px;
+	padding:5px;
+	background: #fffdda;
+	width:250px;
+	font-size:16px;
+	font-style: italic;
+	font-weight:bold;
+}
+
+
+
+/* _list view css ------------------------------------- */
+.s-view {
+	
+	width:605px;
+	border-bottom: 1px solid lightgray;
+	height: 90px;
+	overflow:hidden;
+	background:white;
+	font-family: "Times New Roman";
+	font-size:12px;
+	color:#777777;
+}
+
+.s-view .votes {
+	padding: 5px 0px;
+	font-weight:bold;
+	color: #333333;
+	font-size:16px;
+	width:70px;
+	text-align:center;
+}
+
+.s-view a {
+	color: blue;
+	text-decoration: none;
+}
+.s-view a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.s-view {
+	display:block;
+}
+
+.s-view .head {
+font-size:14px;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+.vote-box {
+	width:70px;
+	padding: 15px 0px;	
+}
+
+
+.s-view .body {
+	width:450px;
+	padding: 24px 0px;
+}
+
+.s-view .date {
+	width:80px;
+	margin-right:5px;
+	border-top:4px solid lightgray;
+}
+
+
+
+
+.up-vote {
+	background: url('../images/up_arrow.png') no-repeat;
+	width:13px;
+	height:11px;
+	margin-left:10px;
+}
+.down-vote {
+	background: url('../images/down_arrow.png') no-repeat;
+	width:13px;
+	height:10px;
+	margin-left:10px;
+}
+.up-vote:hover, .down-vote:hover {
+	opacity:0.7;
+}
+
+/* ----------------------- */
+
+
+.claer {
+	clear:both;
+}
+
+.left {
+	float:left;	
+}
+.block {
+	display:block;
+}
+
+

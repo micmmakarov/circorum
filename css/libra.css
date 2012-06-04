@@ -1,0 +1,318 @@
+@CHARSET "ISO-8859-1";
+
+.tabs-box {
+    background-color: #fcf5a3;
+    height:50px;
+    margin:0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.tabs-box li {
+float:left;
+width:120px;
+font-size:18px;
+background-color: white;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin-top: 19px;
+height:27px;
+border: 1px solid lightgray;
+text-align: center;
+list-style: none;
+padding-top: 3px;
+cursor: pointer;
+}
+
+.hidden {
+display: none;
+}
+
+img.logo {
+	margin-top: 21px;
+	margin-left: 4px;
+	height: 72%; 
+	width: 72%;
+}
+
+.tabs-box li.active {
+border-bottom: 1px solid white !important;
+}
+
+.abstract {
+margin:10px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+.yellow-background {
+background: #FCFEF3;
+}
+
+.feed {
+float:left;width:600px;
+    overflow:hidden;
+}
+
+.border-bottom {
+border-bottom: 1px solid #d3d3d3;
+}
+
+.header {
+	padding-top:25px;
+}
+
+.body {
+	padding-top:10px;
+	min-height:500px;
+}
+
+.body .left-side {
+	min-height:600px;
+	background: url('../images/athens_image.png') no-repeat 0px 200px;
+	
+}
+
+.footer {
+	
+}
+
+.col1 {
+	
+	width:91px;
+	float:right;
+	
+}
+
+.categories {
+
+font-size:12px;
+list-style-image:none;
+background-color: #F6F6F6;
+width: 234px;
+margin-top: -16px;
+padding-left: 8px;
+padding-top: 7px;
+padding-bottom: 7px;
+    list-style-type: none;
+	line-height:100%;
+}
+.categories a {
+ color:green; 
+    text-decoration: none;
+    font-size:10px;
+}
+.categories ul, .categories li {
+opacity:1;
+font-size: 8px;
+}
+.categories li {
+padding: 0px;
+margin:0px;
+}
+
+.categories ul {
+list-style: none;
+}
+.categories li ul {
+padding-top:5px;
+padding-bottom: 5px;
+margin-top:5px;
+margin-bottom: 5px;
+
+border-bottom: 1px solid silver;
+border-top: 1px solid silver;
+
+}
+
+
+
+.left-side {
+	float:left;
+	width:200px;
+	margin-right:20px;
+	
+}
+
+.right-side {
+	float:left;
+	width:715px;
+}
+.clear {
+	clear:both;
+}
+
+
+.logo:hover {
+	
+	cursor:pointer;
+	
+}
+
+
+
+
+
+.input-text {
+	background-color: white;	
+	background: url('../images/magnifying_glass.png') no-repeat 305px 5px;
+	width:300px;
+	height: 24px;
+	padding: 2px 30px 2px 2px;
+	font-size:16px;
+	border:0px;
+	border: 1px solid lightgray;
+}
+
+
+.head-bar {
+	background:white;
+	border:1px solid lightgray;
+	height:30px;
+	padding: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.head-bar span {
+	display:block;
+	margin-top:7px;
+	float:right;
+}
+
+.head-bar input {
+	float:left;
+}
+
+.comment-box {
+width:560px;
+border-bottom: 1px solid lightgray;
+padding: 20px 20px;
+overflow:hidden;
+}
+
+.comment-title {
+    width:100%;
+    padding-bottom:10px;
+}
+
+.comment-author {
+    color:blue;
+    font-size:16px;
+}
+.comment-time {
+    color:#676767;
+    font-size:14px;
+    margin-left:30px;
+}
+
+.comment-body {
+    width:100%;
+}
+
+.comment-votebar {
+    float:left;
+    width:5%;
+}
+.comment {
+    float:left;
+    width: 95%;
+}
+
+.comment-votebar .up-vote,.comment-votebar .down-vote {
+    margin-top:10px;
+    margin-left:0px;
+    margin-bottom:10px;
+}
+
+.comment-vote {
+    color:black;
+    font-size:16px;
+    padding-bottom:5px;
+}
+
+.comment-text {
+    color:#676767;
+}
+
+.comment-write {
+    width:95%;
+    background: #EEEEEE;
+}
+
+.comment-button {
+    margin-top:10px;
+    margin-left:400px;
+    width:110px;
+}
+
+/* Rating */
+.up {
+margin-left:4px;
+background: url(../images/arrous.png) no-repeat 0px -3px;
+width:24px;
+height:22px;
+cursor:pointer;
+}
+.down {
+margin-left:4px;
+background: url(../images/arrous.png) no-repeat -27px -3px;
+    width:24px;
+    height:22px;
+    cursor:pointer;
+}
+.up:hover {
+margin-left:4px;
+margin-right:5px;
+background: url(../images/arrous.png) no-repeat 0px -27px;
+width:24px;
+height:22px;
+cursor:pointer;
+}
+
+.up-vote {
+	background: url(../images/up_arrow.png) no-repeat 0px 0px;
+	width: 14px;
+	height: 14px;
+}
+
+.up-voted {
+	background: url(../images/up_arrow_voted.png) no-repeat 0px 0px;
+	width: 14px;
+	height: 14px;
+	margin-left: 9px;
+}
+
+.down:hover {
+margin-left:4px;
+background: url(../images/arrous.png) no-repeat -27px -27px;
+    width:24px;
+    height:22px;
+    cursor:pointer;
+}
+
+.down-vote {
+	background: url(../images/down_arrow.png) no-repeat 0px 0px;
+	width: 14px;
+	height: 14px;
+}
+
+.down-voted {
+	background: url(../images/down_arrow_voted.png) no-repeat 0px 0px;
+	width: 16px;
+	height: 14px;
+	margin-left: 9px;
+}
+
+.up1 {
+margin-left:8px;
+background: url(../images/arrows.png) no-repeat -32px 1px;
+width:14px;
+height:14px;
+cursor:pointer;
+}
+.down1 {
+margin-left:8px;
+background: url(../images/arrows.png) no-repeat;
+    width:14px;
+    height:14px;
+    cursor:pointer;
+}
